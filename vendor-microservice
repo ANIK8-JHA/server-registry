@@ -1,16 +1,4 @@
-spring:
-  datasource:
-    url: jdbc:h2:mem:rpms
-    username: root
-    password: root
-    driver-class-name: org.h2.Driver
-    
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    defer-datasource-initialization: true
-  h2:
-    console:
-      enabled: true
+
     
   
 server:
